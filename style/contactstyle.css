@@ -28,8 +28,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
-	line-height: 1;
+	margin: 150px;
+	letter-spacing: 3px;
 }
 ol, ul {
 	list-style: none;
@@ -47,99 +49,40 @@ table {
 	border-spacing: 0;
 }
 
-
-/***************************************
-           Our Styles
-***************************************/
-
-html, body {
-	font-family: "Helvetica Neue", Helvetica, sans-serif;
-}
-
-.container {
-	margin: 0 auto;
-	font-size: 0;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	}
-
-.artist {
-	margin: auto;
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-
-h1 {
+.email {
+	margin-top: 50px;
 	font-family: "Helvetica Neue";
-	font-size: 46px; 
 	font-weight: 100;
 	text-align: center;
-	color: rgb(36, 37, 37);
-	font-weight: 150;
-	letter-spacing: 12px;
+	letter-spacing: 3
 }
 
-.statement a {
-	text-decoration: none;
-}
-
-.contact a {
-	text-decoration: none;
-}
-
-
-h1 span {
+.title {
+	padding: 10px;
+	letter-spacing: 3px;
+	text-align: center;
+	font-family: "Helvetica Neue";
 	font-weight: 150;
 }
 
-header a {
-	font-family: ;
-	font-style: ;
-	font-size: 15px;
-	color: black;
-	font-weight: 100;
-	letter-spacing: 4px;
-	padding: 0 50px;
-	}
-
-header div {
+.follow {
+	margin:70px;
+	margin-top: 60px;
+	font-family: "Helvetica Neue";
+	font-weight: 150;
 	text-align: center;
-	margin: auto;
-	margin-top: 32px;
-	width: 427px;	
+
 }
 
-header {
-	padding-bottom: 75px;
-}
-
-.image {
-
+.symbolcontainer {
 	margin: 0 auto;
 	text-align: center;
-	width: 350px;
 }
 
-.image a {
+.symbolcontainer a {
 	margin: 8px;
 	display:inline-block;
 	height: 100px;
 	width: 100px;
 	overflow: hidden;
-}
-
-.footer {
-	font-family: Playfair Display;
-	font-style: italic;
-	text-align: center;
-	font-size: 15px;
-	color: black;
-	font-weight: 100;
-	letter-spacing: 4px;
-	padding top: 50px;
-	padding: 100px;
-}
-
-img {
-	max-width: 100px;
 }
